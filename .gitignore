@@ -29,10 +29,12 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 
 ##latex auto generated
+*.aux
 *.bbl
 *.blg
 *.lof
 *.lot
 *.out
+*.tcp
 *.toc
 *.tps

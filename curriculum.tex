@@ -1,0 +1,79 @@
+\documentclass[a5paper,oneside]{amsart}
+
+
+\usepackage{color}
+\definecolor{azul}{RGB}{20,40,140}
+
+\usepackage{courier}
+
+\usepackage{dsfont}
+
+\usepackage{embedfile}
+\usepackage{enumitem}
+
+\usepackage[scale={.8,.85}]{geometry}
+
+\usepackage[colorlinks,linkcolor=azul, citecolor=azul,urlcolor=azul]{hyperref}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{listings}
+
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+
+
+\allowdisplaybreaks
+\setlength\parindent{0pt}
+
+\mathtoolsset{showonlyrefs}
+\newtheoremstyle{dotless}{}{}{\itshape}{}{\bfseries}{}{ }{}
+\theoremstyle{definition}
+\renewenvironment{proof}{{\bfseries Demostración:}}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\numberwithin{equation}{subsection}
+
+\normalfont
+
+\begin{document}
+    \section{Personal information}
+        
+        \begin{tabular}{lp{15cm}}
+                \textbf{Name:}              &   \texttt{H\'ector Manuel T\'ellez G\'omez}                                                           \\
+                &\\
+                \textbf{E-mail:}            &   \texttt{\href{mailto: tellez.hector@gmail.com}{tellez.hector@gmail.com}}                                                                  \\
+                &\\
+                \textbf{Skype username:}    &   \texttt{hmtellez}                                                                                   \\
+                &\\
+                \textbf{LinkedIn page:}     &   \texttt{\href{http://www.linkedin.com/in/hectortellez}{hectortellez}}                               \\
+                &\\
+                \textbf{github:}            &   \texttt{\href{https://github.com/bloodyvesp}{bloodyvesp}}                                           \\
+                &\\
+                \textbf{Address:}           &   \parbox{15cm}{
+                                                    \texttt{Unidad Habitacional Villa Panamericana                  \\
+                                                            Coyoac\'an                                              \\
+                                                            México D.F. (Mexico City)}}                                                                 \\
+        \end{tabular}
+        
+    
+    \newpage
+    \section{Experience}    
+
+    \newpage        
+    \section{Programming skills}
+        \subsection{General skills}
+            \subsubsection{Test driven development}
+            \subsubsection{Patterns and practices}
+            
+        \subsection{Frontend}
+        
+    \newpage
+    \section{Programming books read}
+
+    \newpage    
+    \section{Academic background}
+                       
+\end{document}
